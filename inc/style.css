@@ -388,8 +388,7 @@ video camera
     background: rgb(32, 32, 32);
     height: 100%;
     width: 100%;
-    z-index: 1200;
-    object-fit: cover;
+    object-fit: fill;
 }
 #videocontrol, #filtercontrol {
     width: calc(100% - 36px);

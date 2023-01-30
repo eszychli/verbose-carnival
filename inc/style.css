@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, .next, #info_toggle, .filter_info a {
     z-index: 50;
     transform: translate(100%, 0);
     transition: opacity .7s ease-in;
-    /* background: #F0F0F0; */
+    background: #F0F0F0;
     visibility: hidden;
 }
 .screen.active {
@@ -388,6 +388,7 @@ video camera
     background: rgb(32, 32, 32);
     height: 100%;
     width: 100%;
+    z-index: 1200;
     object-fit: cover;
 }
 #videocontrol, #filtercontrol {
@@ -427,7 +428,7 @@ video camera
 }
 */
 #step1 {
-    /* background: #F0F0F0; */
+    background: #F0F0F0;
 }
 #screenshot-button {
     width: 95px;
